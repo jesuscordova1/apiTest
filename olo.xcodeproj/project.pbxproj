@@ -13,6 +13,8 @@
 		22C64EB327A9D492001EA790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C64EB127A9D492001EA790 /* Main.storyboard */; };
 		22C64EB527A9D494001EA790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C64EB427A9D494001EA790 /* Assets.xcassets */; };
 		22C64EB827A9D494001EA790 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C64EB627A9D494001EA790 /* LaunchScreen.storyboard */; };
+		22C64EC027A9D500001EA790 /* BookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C64EBF27A9D500001EA790 /* BookManager.swift */; };
+		22C64EC227A9D529001EA790 /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C64EC127A9D529001EA790 /* BookData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		22C64EB427A9D494001EA790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22C64EB727A9D494001EA790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22C64EB927A9D494001EA790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C64EBF27A9D500001EA790 /* BookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookManager.swift; sourceTree = "<group>"; };
+		22C64EC127A9D529001EA790 /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				22C64EB427A9D494001EA790 /* Assets.xcassets */,
 				22C64EB627A9D494001EA790 /* LaunchScreen.storyboard */,
 				22C64EB927A9D494001EA790 /* Info.plist */,
+				22C64EC127A9D529001EA790 /* BookData.swift */,
+				22C64EBF27A9D500001EA790 /* BookManager.swift */,
 			);
 			path = olo;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C64EC227A9D529001EA790 /* BookData.swift in Sources */,
 				22C64EB027A9D492001EA790 /* ViewController.swift in Sources */,
 				22C64EAC27A9D492001EA790 /* AppDelegate.swift in Sources */,
+				22C64EC027A9D500001EA790 /* BookManager.swift in Sources */,
 				22C64EAE27A9D492001EA790 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
